@@ -3,9 +3,9 @@
   Доповніть цю функцію, використовуючи generics, щоб вона повертала правильний тип.
 */
 
-type unionType = string | number;
+type UnionType = string | number;
 
-function getPromise(): Promise<unionType[]> {
+function getPromise(): Promise<UnionType[]> {
   return new Promise((resolve) => {
     resolve(['Text', 50]);
   });
